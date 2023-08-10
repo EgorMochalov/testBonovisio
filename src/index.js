@@ -1,0 +1,11 @@
+import '../node_modules/swiper/swiper-bundle.css';
+import"./scss/fonts.scss";
+import "./scss/style.scss";
+import "./scss/header.scss";
+import "./scss/head.scss";
+import "./scss/speakers.scss";
+import "./scss/sectionForm.scss";
+import "./js/swiper";
+import "./js/dropMenu";
+import "./js/submitForm";
+import "./js/showElement";

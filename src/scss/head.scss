@@ -1,0 +1,205 @@
+.head {
+    background: #0A2756;
+    padding-top: 69px;
+    padding-bottom: 86px;
+    overflow-x: hidden;
+
+    @media screen and (max-width: 900px) {
+        padding-bottom: 37px;
+    }
+
+    @media screen and (max-width: 470px) {
+        padding-top: 60px;
+        padding-bottom: 130px;
+    }
+}
+
+.head-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.head .container {
+    position: relative;
+}
+
+.chat-svg {
+    position: absolute;
+    right: -140px;
+    top: -30px;
+
+    @media screen and (max-width: 900px) {
+        right: -25px;
+    }
+
+    @media screen and (max-width: 720px) {
+        display: none;
+    }
+}
+
+.chat-svg-mob {
+    display: none;
+    align-self: center;
+    margin-top: 59px;
+
+    @media screen and (max-width: 720px) {
+        display: block;
+    }
+}
+
+.chat-svg svg {
+    @media screen and (max-width: 900px) {
+        width: 244px;
+        height: 211px;
+    }
+}
+
+.data-svg {
+    @media screen and (max-width: 900px) {
+        width: 198px;
+        height: 40.4px;
+    }
+    @media screen and (max-width: 470px) {
+        width: 140px;
+        height: 29px;
+    }
+}
+
+.title-svg {
+    @media screen and (max-width: 900px) {
+        width: 349px;
+        height: 122px;
+    }
+    @media screen and (max-width: 470px) {
+        width: 248px;
+        height: 87px;
+    }
+}
+
+.list-svg {
+    @media screen and (max-width: 900px) {
+        width: 327.14px;
+        height: 22px;
+    }
+    @media screen and (max-width: 470px) {
+        width: 232px;
+        height: 16px;
+    }
+}
+
+.content-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @media screen and (max-width: 720px) {
+        padding-left: 30px;
+        gap: 16px;
+    }
+
+    @media screen and (max-width: 470px) {
+        gap: 12px;
+    }
+}
+
+.conf-svg {
+    position: absolute;
+    left: -63px;
+    top: 0;
+
+    @media screen and (max-width: 900px) {
+        left: -45px;
+    }
+
+    @media screen and (max-width: 720px) {
+        left: 0;
+    }
+}
+
+.conf-svg svg {
+    @media screen and (max-width: 900px) {
+        width: 26px;
+        height: 178px;
+    }
+    @media screen and (max-width: 470px) {
+        width: 18px;
+        height: 127px;
+    }
+}
+
+.button-auth,.button-submit {
+    cursor: pointer;
+    margin-top: 65px;
+    background-color: #007DFE;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 9.38px;
+    text-transform: uppercase;
+    padding: 26px 46px;
+    padding-right: 37px;
+    align-self: flex-start;
+
+    @media screen and (max-width: 900px) {
+        margin-top: 53px;
+    }
+
+    @media screen and (max-width: 720px) {
+        width: 100%;
+        padding: 26px 0;
+        letter-spacing: 4.2px;
+    }
+
+    @media screen and (max-width: 470px) {
+       margin-top: 59px;
+    }
+}
+
+.head-descr {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    max-width: 521px;
+    margin-top: 48px;
+    margin-bottom: 41px;
+}
+
+.head-descr-text {
+    max-width: 521px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.arrow {
+    align-self: center;
+    margin-top: 48px;
+    animation: arrow-hover 1s linear infinite;
+
+    @media screen and (max-width: 470px) {
+        display: none;
+    }
+}
+
+@keyframes arrow-hover {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
